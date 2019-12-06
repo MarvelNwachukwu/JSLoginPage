@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(141, 127, 127);
+}
+                    /* Page list */
+.signUp{
+    position: relative;
+    
+
+}
+
+.loginPage{
+    position: relative;
+    display: none;
+}
+
+.welcomePage{
+ display: none;
+}
+
+                    /* signup page  */
+
+
+.eMail, .passWord, .ConfirmPassWord, .userName{
+    position: absolute;
+    top: 2vh;
+    left: 30vw;
+    height: 5vh;
+    width: 40vw;
+    background-color: white;
+    padding-left: 2vw;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.userName{
+    top: 10vh;
+}
+
+.eMail{
+    top: 20vh;
+}
+
+.passWord{
+    top: 30vh;
+}
+
+.ConfirmPassWord{
+    top: 40vh;
+}
+
+.submitButton{
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    height: 5vh;
+    width: 15vw;
+    background-color: white;
+    padding-left: 2vw;
+}
+
+
+
+                /* Login page  */
+
+.Email{
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+    height: 5vh;
+    width: 40vw;
+    background-color: white;
+    padding-left: 2vw;
+}
+
+.PassWord{
+    position: absolute;
+    top: 30vh;
+    left: 30vw;
+    height: 5vh;
+    width: 40vw;
+    background-color: white;
+    padding-left: 2vw;
+}
+
+.loginButton{
+    position: absolute;
+    top: 40vh;
+    left: 30vw;
+    height: 5vh;
+    width: 15vw;
+    background-color: white;
+    padding-left: 2vw;
+}
